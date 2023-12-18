@@ -38,32 +38,32 @@ class ClisitefPlugin: FlutterPlugin, MethodCallHandler, ActivityAware {
   private val CHANNEL = "com.loopmarket.clisitef"
 
   override fun onAttachedToActivity(activityPluginBinding: ActivityPluginBinding) {
-    /*activity = activityPluginBinding.activity
+    activity = activityPluginBinding.activity
 
     if(cliSiTef != null){
       cliSiTef.setActivity(activity)
-    }*/
+    }
   }
 
   override fun onDetachedFromActivityForConfigChanges() {
-    /*if(cliSiTef != null){
+    if(cliSiTef != null){
       cliSiTef.setActivity(null)
-    }*/
+    }
   }
 
   override fun onReattachedToActivityForConfigChanges(activityPluginBinding: ActivityPluginBinding) {
-    /*activity = activityPluginBinding.activity
+    activity = activityPluginBinding.activity
 
     if(cliSiTef != null){
       cliSiTef.setActivity(activity)
-    }*/
+    }
 
   }
 
   override fun onDetachedFromActivity() {
-    /*if(cliSiTef != null){
+    if(cliSiTef != null){
       cliSiTef.setActivity(null)
-    }*/
+    }
   }
 
   override fun onAttachedToEngine(@NonNull flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
