@@ -61,7 +61,7 @@ android {
 
 dependencies {
     implementation files('src/main/kotlin/libs/clisitef-android.jar')
-    implementation (name: 'PPCompGPOS720-v1.33-Complete-debug', ext: 'aar')
+    implementation (name: 'PPCompGPOS720-v1.36-Complete', ext: 'aar')
     //implementation "androidx.room:room-runtime:2.4.3"
     //implementation "androidx.room:room-ktx:2.4.3"
     //implementation 'androidx.preference:preference:1.2.1'
