@@ -60,7 +60,7 @@ android {
 }
 
 dependencies {
-    implementation files('src/main/kotlin/libs/clisitef-android.jar')
+    implementation files('src/main/kotlin/libs/clisitef-producao.jar')
     implementation (name: 'PPCompGPOS720-v1.33-producao', ext: 'aar')
     //implementation "androidx.room:room-runtime:2.4.3"
     //implementation "androidx.room:room-ktx:2.4.3"
