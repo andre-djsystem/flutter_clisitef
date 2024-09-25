@@ -61,6 +61,8 @@ class _MyAppState extends State<MyApp> {
       cnpjLoja: '05481336000137',
       tipoPinPad: TipoPinPad.apos,
       parametrosAdicionais: '',
+      restricoesDebito: '',
+      restricoesCredito: '',
     );
 
     pdv = CliSiTefPDV(
