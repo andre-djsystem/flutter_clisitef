@@ -1,0 +1,2 @@
+-keep class com.loopmarket.clisitef.** { *; }
+-keep class io.flutter.plugins.pathprovider.** { *; }
